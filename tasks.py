@@ -4,7 +4,7 @@ import os
 from crewai_tools import SerperDevTool
 
 user_input = input("Enter a research topic: ")
-output_location = os.path.join(os.getcwd(), "research_summary.md")
+output_location = os.path.join(os.getcwd(), "/output/research_summary.md")
 
 
 
